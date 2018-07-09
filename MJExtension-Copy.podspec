@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "MJExtension-Copy"
+  s.name         = "MJExtensionCopy"
   s.version      = "3.0.15"
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
