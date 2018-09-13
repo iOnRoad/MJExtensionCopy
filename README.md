@@ -1,3 +1,5 @@
+> 这是一个MJExtension的copy版本，解决MJExtension在32位机器上的转换问题。该库在不久的将来可能会被删除。
+
 
 ![Logo](http://images.cnitblog.com/blog2015/497279/201505/051004316736641.png)
 MJExtension
