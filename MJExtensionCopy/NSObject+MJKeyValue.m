@@ -30,6 +30,11 @@ static const char MJErrorKey = '\0';
     objc_setAssociatedObject(self, &MJErrorKey, error, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
+//忽略系统属性
++ (NSArray *)mj_ignoredPropertyNames{
+    return @[@"debugDescription",@"description",@"hash",@"superclass"];
+}
+
 #pragma mark - 模型 -> 字典时的参考
 /** 模型转字典时，字典的key是否参考replacedKeyFromPropertyName等方法（父类设置了，子类也会继承下来） */
 static const char MJReferenceReplacedKeyWhenCreatingKeyValuesKey = '\0';
